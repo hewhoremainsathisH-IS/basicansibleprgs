@@ -1,0 +1,7 @@
+---
+- name: Its my Test ping 
+  hosts: myhost
+  tasks:
+  - name: My Task for ping
+    ansible.builtin.ping:
+    

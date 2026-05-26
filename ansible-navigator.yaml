@@ -1,0 +1,14 @@
+---
+ansible-navigator:
+  ansible:
+    config:
+      path: ansible.cfg
+  execution-environment:
+    container-engine: podman
+    enabled: false
+    pull:
+      policy: missing
+      
+  mode: stdout
+  playbook-artifact:
+    enable: false
